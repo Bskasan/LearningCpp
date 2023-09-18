@@ -71,6 +71,19 @@ int main()
 	player.pPosition.z = 30;
 	player.hp = 100;
 
+	//--------- POINTERS --------------//
+
+	// The * characters usually make things special.
+
+	Player* ptrPlayer; // Declaring pointer
+	ptrPlayer = &player; // Linkage and & operator gets the memory address of a variable.
+
+	// This linkage step is important, if you don't link the pointer to an object before you use the pointer, you will get a memory access violation.
+
+	ptrPlayer->hp -= 33; // reduced the player's hp by 33
+	ptrPlayer->pName = "John";// changed his name to John
+
+
 
 
 	return 0;		// "return" to the operating sys

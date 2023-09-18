@@ -1,6 +1,6 @@
 ﻿  Source.cpp
-C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(39,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(46,8): error C2371: 'hp': redefinition; different basic types
-C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(33,6): message : see declaration of 'hp'
-C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(49,7): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(52,42): error C2088: '<<': illegal for class
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(40,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(47,8): error C2371: 'hp': redefinition; different basic types
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(34,6): message : see declaration of 'hp'
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(50,7): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\MyFirstApp\MyFirstApp\Source.cpp(53,42): error C2088: '<<': illegal for class

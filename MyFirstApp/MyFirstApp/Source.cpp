@@ -1,4 +1,5 @@
 # include <iostream> // import input-output library
+# include <string>
 using namespace std; // allows us to write cout
 					 // instad of using std::cout
 
@@ -37,7 +38,7 @@ int main()
 
 	// int > int & float <> float
 	int x = 38.87f;
-	cout << x << endl; // 38
+	cout << x; // 38
 
 	//------------- UNREAL GAME DEV EXAMPLE ----------//
 
@@ -83,8 +84,14 @@ int main()
 	ptrPlayer->hp -= 33; // reduced the player's hp by 33
 	ptrPlayer->pName = "John";// changed his name to John
 
+	// cin
+	cout << "What is your age? " << endl;
+	int age;
+	cin >> age;
 
-
+	char character = 'A';
+	int integer = 1;
+	printf("integer %d, character %c\n", integer, character);
 
 	return 0;		// "return" to the operating sys
 

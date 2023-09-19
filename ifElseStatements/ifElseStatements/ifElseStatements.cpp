@@ -30,5 +30,19 @@ int main()
     }
 
     cout << "Sitting on the couch..." << endl;
+
+    // ------------------------------------------ //
+
+    bool wearingSocks = true;
+    bool wearingClothes = true;
+
+    if (!wearingSocks && !wearingClothes)
+    {
+        cout << "Get some socks on ..." << endl;
+    }
+    else 
+    {
+        cout << "You already have socks..." << endl;
+    }
 }
 

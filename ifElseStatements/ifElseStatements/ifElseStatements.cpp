@@ -15,5 +15,20 @@ int main()
     // 1 means true, 0 means false.
     // if you want to see true/false use boolalpha in your code.
     cout << "Is x equal to y? C++ says: " << boolalpha << (x == y) << endl;
+
+
+    bool isHungry = false;
+
+    if (isHungry)
+    {
+        cout << "Preparing snack..." << endl;
+        cout << "Eating..." << endl;
+    }
+    else
+    {
+        cout << "I am not hungry..." << endl;
+    }
+
+    cout << "Sitting on the couch..." << endl;
 }
 

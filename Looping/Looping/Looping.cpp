@@ -6,10 +6,16 @@
 
 using namespace std;
 
+void showName(string name)
+{
+	cout << "My name is " << name << endl;
+}
+
 int main()
 {
+	showName("Bekir");
+	showName("John");
 	
-
 	int y = 10;
 
 	while (y >= 1)
@@ -26,7 +32,6 @@ int main()
 		{
 			cout << "z is " << z << endl;
 		}
-
 		z++;
 	}
 

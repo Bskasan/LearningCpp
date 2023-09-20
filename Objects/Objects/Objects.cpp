@@ -6,14 +6,37 @@
 
 using namespace std;
 
+struct Armor
+{
+    string armorName;
+    int armorClass;
+    double durability;
+};
+
 struct Player
 {
+
+private:
+
     string name;
     int hp;
+    Armor armor;
 
-    void damage(int amount)
+public:
+
+    string getName()
     {
-        this->hp -= amount;
+        return name;
+    }
+
+    void setName(string newName)
+    {
+        name = newName;
+    }
+
+    void damage(int dmgAmount)
+    {
+        this->hp -= dmgAmount;
     }
 
     void recover(int amount)
@@ -21,6 +44,7 @@ struct Player
         this->hp += amount;
     }
 };
+
 
 int main()
 {

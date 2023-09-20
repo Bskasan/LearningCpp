@@ -24,14 +24,22 @@ private:
 
 public:
 
-    string getName()
-    {
-        return name;
-    }
+    // Getters
+    string getName() { return name; }
+    int getHp() { return hp; }
 
-    void setName(string newName)
+    // Setters
+    void setName(string newName) { name = newName; }
+    void setHp(int newHp)
     {
-        name = newName;
+        // Guard the hp variable from taking on negative values
+        if (newHp < 0)
+        {
+            cout << "Error: player hp cannot be less than 0" << endl;
+            newHp = 0;
+        }
+
+        hp = newHp;
     }
 
     void damage(int dmgAmount)

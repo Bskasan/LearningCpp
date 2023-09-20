@@ -23,6 +23,18 @@ private:
     Armor armor;
 
 public:
+    // The Constructor
+    Player()
+    {
+        cout << "Player object constructed" << endl;
+        name = "Diplo";
+    }
+
+    // ~Destructor (~ is not a typo!)
+    ~Player()
+    {
+        cout << "Player object destroyed" << endl;
+    }
 
     // Getters
     string getName() { return name; }
@@ -62,18 +74,18 @@ int main()
 
     Player player;
 
-    player.hp = 100;
-    player.name = "Mike";
+    player.setHp(100);
+    player.setName("Mike");
 
-    cout << "Player name is => " << player.name << endl;
+    cout << "Player name is => " << player.getName() << endl;
 
     player.damage(25);
 
-    cout << "Player's current hp is => " << player.hp << endl;
+    cout << "Player's current hp is => " << player.getHp() << endl;
 
     player.recover(10);
 
-    cout << "Player's current hp is => " << player.hp << endl;
+    cout << "Player's current hp is => " << player.getHp() << endl;
 
 
 }

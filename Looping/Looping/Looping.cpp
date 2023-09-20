@@ -8,19 +8,7 @@ using namespace std;
 
 int main()
 {
-	int x = 1;
-
-	while (x <= 5)
-	{
-		cout << "x is " << x << endl;
-		x++;
-	}
-
-	while (x <= 10)
-	{
-		cout << "x is " << x << endl;
-		x++;
-	}
+	
 
 	int y = 10;
 
@@ -43,5 +31,15 @@ int main()
 	}
 
 	cout << "Loop Finished!" << endl;
+
+	// ---------- do while loop -------------- //
+	int num1 = 1;
+	do
+	{
+		cout << "Number is " << num1 << endl;
+		num1++;
+	} while (num1 <= 5); // may only loop back when x<=5
+
+	cout << "End of program" << endl;
 }
 

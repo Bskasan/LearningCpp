@@ -27,5 +27,22 @@ int main()
     string s = "Strings are object";
     s.append("!");
     cout << s << endl;
+
+    Player player;
+
+    player.hp = 100;
+    player.name = "Mike";
+
+    cout << "Player name is => " << player.name << endl;
+
+    player.damage(25);
+
+    cout << "Player's current hp is => " << player.hp << endl;
+
+    player.recover(10);
+
+    cout << "Player's current hp is => " << player.hp << endl;
+
+
 }
 

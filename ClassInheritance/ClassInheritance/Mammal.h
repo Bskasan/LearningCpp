@@ -16,29 +16,15 @@ protected:
 
 public:
 	// Mammal constructor - runs first before derived class ctors!
-	Mammal()
-	{
-		hp = 100;
-		speed = 1.0;
-		cout << "A mammal is created!" << endl;
-	}
+	Mammal();
 
 	// Mammal Destructor
-	~Mammal()
-	{
-		cout << "A mammal has fallen!" << endl;
-	}
+	~Mammal();
 
 	// Common function to all Mammals and derivatives
-	void breathe()
-	{
-		cout << "Breathe in ... Breath out ..." << endl;
-	}
+	void breathe();
 
-	virtual void talk()
-	{
-		cout << "Mammal talk ... override this function!" << endl;
-	}
+	virtual void talk();
 
 	// pure virtual function, (explained below)
 	virtual void walk() = 0;

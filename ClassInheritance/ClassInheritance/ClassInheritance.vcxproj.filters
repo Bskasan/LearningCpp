@@ -18,6 +18,9 @@
     <ClCompile Include="ClassInheritance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mammal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mammal.h">

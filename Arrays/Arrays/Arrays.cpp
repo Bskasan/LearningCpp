@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+	string aNames[3];
 	int array[5]; // Declare an "array" of 5 integers#
 				  // fill slots 0-4 with values
 
@@ -17,9 +18,17 @@ int main()
 	array[3] = 4;
 	array[4] = 5;
 
+	aNames[0] = "Bekir";
+	aNames[1] = "Mike";
+	aNames[2] = "John";
+
+
 	// Print out contents
 	for (int i = 0; i < 5; i++)
 		cout << array[i] << endl;
+
+	for (int i = 0; i < 5; i++)
+		cout << aNames[i] << endl;
 }
 
 

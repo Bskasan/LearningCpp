@@ -10,7 +10,16 @@ using namespace std;
 
 int main()
 {
-	Player player;
-}
+	// "dynamic alloacation" - using keyword new!
+	// This style of allocation means that the player object will NOT be deleted automatically at the end of the block where it was declared!
+	Player* player = new Player();
+
+	// Delete operator invokes the destructor on the object being deleted, as shown in the following code;
+
+	delete player; // Deletion invokes dtor
+
+
+
+} // --- NO AUTOMATIC DELETION ---
 
 

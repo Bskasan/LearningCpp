@@ -1,0 +1,13 @@
+﻿  ClassInheritance.cpp
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(82,11): error C2001: newline in constant
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,35): error C2001: newline in constant
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,4): error C2146: syntax error: missing ';' before identifier 'back'
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,4): error C2065: 'back': undeclared identifier
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,9): error C2146: syntax error: missing ';' before identifier 'left'
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,14): error C2146: syntax error: missing ';' before identifier 'paw'
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,9): warning C4551: function call missing argument list
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,14): error C2065: 'paw': undeclared identifier
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(83,18): error C2059: syntax error: '.'
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(86,22): error C2504: 'Mammal': base class undefined
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(115,14): error C2061: syntax error: identifier 'Human'
+C:\DESKTOP\CLARUSWAY - FULLSTACK\Learning C++\ClassInheritance\ClassInheritance\ClassInheritance.cpp(87,1): fatal  error C1075: '{': no matching token found
